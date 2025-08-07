@@ -1,0 +1,54 @@
+/* 全体のフォントと背景 */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to bottom right, #ffefd5, #e0f7fa);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* コンテナのデザイン */
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+/* タイトルの色と余白 */
+h1 {
+  color: #008CBA; /* 海の薄いブルー */
+  margin-bottom: 24px;
+}
+
+/* 名前選択リスト */
+select {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ffa07a; /* 淡いオレンジ */
+  border-radius: 12px;
+  background-color: #fffaf0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* ボタンのデザイン */
+button {
+  background-color: #ffa07a; /* 淡いオレンジ */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff8c66;
+}
